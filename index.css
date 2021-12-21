@@ -1,0 +1,123 @@
+header{
+    background-color: rgb(192, 187, 187);
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    font-family: Verdana, Tahoma, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.container{
+    width: 60%;
+    padding-left: 15px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+img.logo {
+    width: 65px;
+    padding: 30px;
+}
+
+h1{
+    color: rgb(138, 43, 226);
+    font-size: 30px;
+    font-weight: 800;
+}    
+
+h1:hover{
+    font-size: 40px;
+}
+
+div.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    height: 70px;
+    margin-right: 15px;
+    background-color: rgb(192, 187, 187);
+}
+
+div.menu div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 33%;
+    margin: 1px;
+}   
+
+div.menu div a{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    background-color: rgb(138, 43, 226);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+div.menu div a:hover{
+    background-color: rgb(138, 43, 226);
+    color: black;
+    height: 3rem;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+main img {
+    width: 312px;
+    height: 312px;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -4px rgba(138, 43, 226, 0.7);
+}
+
+body{
+    background-color: rgb(228, 211, 243);
+}
+
+footer{
+    background-color: rgb(192, 187, 187);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.copyright{
+    color: rgb(138, 43, 226);
+    font-size: 15px;
+    font-weight: 700;   
+}
+
+@media (max-width:700px){
+    h1{
+        display: none;
+    }
+
+    .menu{
+        flex-direction: column;
+    }   
+}
+
+
+
+
+
